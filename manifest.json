@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube用 Shorts 自動リダイレクト",
+    "short_name": "ShortsAutoRedirectFromYoutube",
+    "description": "シークバーの無いShorts視聴ページから通常の視聴ページへ自動でリダイレクトします",
+    "version": "1.0.0",
+    "icons": {
+        "128": "icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "history",
+        "tabs"
+    ]
+}
