@@ -1,0 +1,2 @@
+# ShortsAutoRedirectFromYoutube
+シークバーの無いShorts視聴ページから通常の視聴ページへ自動でリダイレクトします
