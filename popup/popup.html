@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<header>
+    <meta charset="utf-8"/>
+    <link href="./lib/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./lib/bootstrap-switch-button.min.css" rel="stylesheet"/>
+    <script src="./lib/bootstrap-switch-button.min.js"></script>
+    <script src="./popup.js" ></script>
+</header>
+
+<body>
+    <div class="card" style="margin: 5px;; width: 18rem;">
+        <h5 class="card-header">設定</h5>
+        <div class="card-body">
+          <h5 class="card-title">拡張機能の切り替え</h5>
+          <p class="card-text">Youtube用 Shorts 自動リダイレクトの有効・無効を切り替えます。</p>
+          <input id="ext_sw" type="checkbox" data-toggle="switchbutton" checked data-onstyle="success">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">新しいタブで開く</h5>
+          <p class="card-text">リダイレクトする代わりに、シークバーのある通常の視聴ページを新しいタブで開きます。</p>
+          <input id="tab_sw" type="checkbox" data-toggle="switchbutton" checked data-onstyle="success">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">あらかじめ戻っておく</h5>
+          <p class="card-text">有効にすると、自動リダイレクト後に戻るボタンを押すとリダイレクトがループする現象を回避できます。</p>
+          <input id="toback_sw" type="checkbox" data-toggle="switchbutton" checked data-onstyle="success">
+        </div>
+      </div>
+</body>
